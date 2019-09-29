@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Minh Duc Hoang - Front End Developer</title>
+      <meta charset="utf-8">
+      <meta name="description" content="Resume of Minh Duc Hoang">
+      <meta name="keywords" content="cv, resume, minh duc hoang, front-end, developer">
+
+      <meta name="author" content="Hoàng Đào Minh Đức">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+      <link href="fonts/font.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.ico" />
+      //Inspired by Pham Huy Hoang's website
+
+  </head>
+
+  <body>
+<!-- Nav bar fixed top -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="" style="font-size:22px">MinhDucHoang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" id="about-button" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="skills-button" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="experience-button" href="#">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="projects-button" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="education-button" href="#" style="padding-right:0px">Education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- Intro -->
+ <div id="banner">
+ 	    <div class="container">
+ 	      <div class="banner">
+ 	        <h1>I'm Minh Duc Hoang</h1>
+ 	        <hr>
+ 	        <hr>
+ 	        <h2>A Front-end Developer</h2>
+ 	          
+ 			<p class="icon">
+        <a href="https://www.facebook.com/minhduchoang.dev" target="_blank" id="facebook"><span class="fa-stack fa-2x" >
+	          <i class="fa fa-circle fa-stack-2x"></i>
+	          <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+	        </span></a>
+              <a href="https://stackoverflow.com/users/9464236/minh-duc-hoang" target="_blank"><span class="fa-stack fa-2x" id="stack-overflow">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+              </span></a>
+              <a href="https://github.com/minhduc09" target="_blank"><span class="fa-stack fa-2x" id="github">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span></a>
+	        <a href="https://www.linkedin.com/in/minh-duc-dev" target="_blank"><span class="fa-stack fa-2x" id="linkedin" >
+	          <i class="fa fa-circle fa-stack-2x"></i>
+	          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+	        </span></a>
+ 		   </p>
+ 		   
+ 		   </div>
+ 	    </div>
+ 	</div>
+
+<!-- About me -->
+	<div id="about"> 
+	 </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" id="card" >
+          <img class="card-img-top" src="images/avatar.jpg" alt="Card image" style="width:100%" >
+          <div class="card-body">
+            <h5 class="card-title" style="color: #444"><b>Dao Minh Duc Hoang</b></h5>
+            <p class="card-text"><kbd>"When we strive to become better than we are, everything around us becomes better, too."</kbd></br>_Paulo Coelho, The Alchemist</p>
+            <a href="resume/[Front-end Developer] Dao Minh Duc Hoang.pdf" 
+            class="btn btn-primary resume" download>
+              <span class="fa-stack fa-1x" id="download" >
+              <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+              </span>
+              <span>My CV</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="post">
+          <div class="post-heading">
+            <div class="image">
+              <img src="images/profile-img.jpg" class="img-circle" alt="user profile image">
+            </div>
+            <div class="announce">
+              <div class="title">
+                <a href="#about"><b>Minh Duc Hoang </b></a><span>made a post</span>
+              </div>
+              <h6 class="time">September 27</h6>
+            </div>
+          </div>
+          <div class="post-content">
+            <p>I’m Dao Minh Duc Hoang, a front-end developer. I have taught myself <b>HTML/CSS, Javascript</b> , framework <b>Bootstrap</b>, and library <b>Jquery</b> in a year. I am passionate about developing websites, especially front-end development. I am eager to learn new technologies and able to adapt myself to new circumstances.</p>
+            <p>I am considered as an enthusiastic, hardworking and friendly employee. As a collaborative person, I have no trouble adapting to new environment, and new cowokers.
+</p>
+            <p>With the aforementioned skills and knowledge, I would love to be recruited in a professional and dynamic organization. My goal is to gain work experience, approach new technologies as well as work together with other developers. With the experiences and knowlegde I have gathered from my previous education and the burning passion, I commit to dedicate all my abilities for the success of the organization.</p>
+            <p>Thank you for your consideration!</p>
+          <div class="stats">
+                <button type="button" class="btn btn-outline-light text-dark button" id="like-button" ondblclick="warningFunction()">
+
+                    <span class="fa fa-thumbs-up like" id="like">100</span>
+                </button>
+                <button type="button" class="btn btn-outline-light text-dark button" id="dislike-button" ondblclick="warningFunction()">
+                    <span class="fa fa-thumbs-down like" id="dislike">0</span>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+            <h6 class="card-title" style="color: #555">CONTACT INFO</h6>
+            <ul class="list-group">
+              <li class="list-group-item fa fa-map-marker"><span>Woodroffe Ave, Ottawa, Ontario</span></li>
+              <li class="list-group-item fa fa-phone"><span>343-987-2481</span></li>
+              <li class="list-group-item fa fa-envelope"><span><a href="mailto:mducdev@gmail.com">mducdev@gmail.com</a></span></li>
+              <li class="list-group-item fa fa-globe"><span><a href="https://minhduc09.github.io/" target="_blank">minhduc09.github.io</a></span></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills -->
+	<div class="info" id="skills">
+	    <h2><span>SKILLS</span></h2>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>PROGRAMMING SKILLS</kbd></h3>
+					<ul>
+						<li>HTML 5, CSS 3, Java Script</li>
+            <li>Wordpress, Squarespace</li>
+            <li>SEO</li>
+						<li>Basic of C, C++, Java, Python</li>
+					</ul>
+					<h3><kbd>FRAMEWORKS & PLATFORMS</kbd></h3>
+					<ul>
+						<li>Bootstrap 4</li>
+						<li>JQuery</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>IDE</kbd></h3>
+					<ul>
+						<li>Sublime Text</li>
+						<li>Atom</li>
+						<li>Visual Studio Code</li>
+					</ul>
+					<h3><kbd>FOREIGN LANGUAGE</kbd></h3>
+					<ul>
+            <li>IELTS: 7.0</li>
+						<li>Good English communication skills</br><span>(Used to work at Langmaster English center as a teaching assistant)</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="section">
+					<h3><kbd>SOFT SKILLS</kbd></h3>
+					<ul>
+						<li>Self-confidence</li>
+						<li>Growth mindset</li>
+						<li>Adaptability</li>
+						<li>Collaborative teamwork</li>
+						<li>Critical thinking/problem solving</li>
+						<li>Effective communication</li>
+            <li>Able to work under pressure and multi-task</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Experience -->
+  <div class="info" id="experience">
+      <h2><span>EXPERIENCE</span></h2>
+  </div>
+  <div class="container">
+        <div class="experience">
+          <div class="heading">
+            <div class="picture">
+              <img src="images/FPT-Securities.png" class="work-img" alt="fpts">
+            </div>
+            <div class="work-time">
+              <h5><b>June 2018 - September 2018</b></h5>
+            </div>
+          </div>
+          <div class="describe">
+            <h3><kbd>FPT Securities Joint Stock Company</kbd></h3>
+            <h6><b>Intern Front-end Developer</b></h6>
+            <ul>
+              <li>Made the mock-up stock price board for the company</li>
+              <li>Cloned TSC Services's submit form for the company</li>
+              <li>Finished Javascript courses online</li>
+              <li>Had many side projects</li>
+              <li>Achieved Free Code Camp Javascript certificate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience">
+          <div class="heading">
+            <div class="picture">
+              <img src="images/langmaster.png" class="work-img" alt="langmaster">
+            </div>
+            <div class="work-time">
+              <h5><b>October 2017 - April 2019</b></h5>
+            </div>
+          </div>
+          <div class="describe">
+            <h3><kbd>Langmaster English Center</kbd></h3>
+            <h6><b>Teaching Assistant</b></h6>
+            <ul>
+              <li>Monitored the class and taught the students when the teacher was absent.</li>
+              <li>Checked student's homeworks and gave tests</li>
+              <li>Organized offline activities for students to improve their English skills</li>
+              <li>Gained many important soft skills</li>
+            </ul>
+          </div>
+        </div>
+  </div>
+
+<!-- Projects -->
+  <div class="info" id="projects">
+    <h2><span>PROJECTS</span></h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-priceboard.png" class="edu-img" alt="price-board">
+            </div>
+            <div class="project-name">
+              <h5><b>Stock Price Board</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Mock-up Stock Price Board for FPTS Stock Joint Company</kbd></h3>
+            <p>After working as intern for a month, my mentor gave me instructions to develop the stock price board for the company</p>
+            <a href="https://minhduc09.github.io/price-board/" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/price-board" target="_blank">Github</a>
+        </div>
+      </div>
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-numconvert.png" class="edu-img" alt="number-converter">
+            </div>
+            <div class="project-name">
+              <h5><b>System Numbers Converter</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Side project</kbd></h3>
+            <p>After I studied Computer Number Systems at college, I found it interesting and made this numbers converter website</p>
+            <a href="https://minhduc09.github.io/number-converter" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/number-converter" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-cal.png" class="edu-img" alt="calculator">
+            </div>
+            <div class="project-name">
+              <h5><b>Calculator</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Side project</kbd></h3>
+            <p>I built this calculator website as a part of my studying web development</p>
+            <a href="https://minhduc09.github.io/calculator/" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/calculator" target="_blank">Github</a>
+        </div>
+      </div>
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-snake.png" class="edu-img" alt="snake">
+            </div>
+            <div class="project-name">
+              <h5><b>Snake</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Side project</kbd></h3>
+            <p>I build this game as a part of my studying web development</p>
+            <a href="https://minhduc09.github.io/snake/" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/snake" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-tsc.png" class="edu-img" alt="tsc-form">
+            </div>
+            <div class="project-name">
+              <h5><b>TSCservices's Submit form</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Task at FPTS Joint Stock Company</kbd></h3>
+            <p>I cloned this website as a task when I was an intern at FPTS</p>
+            <a href="https://minhduc09.github.io/tsc-form/" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/tsc-form" target="_blank">Github</a>
+        </div>
+      </div>
+      <div class="col-sm projects">
+        <div class="heading">
+            <div class="picture">
+              <img src="images/pj-stephen.png" class="edu-img" alt="stephen-hawking">
+            </div>
+            <div class="project-name">
+              <h5><b>Stephen Hawking tribute</b></h5>
+            </div>
+        </div>
+        <div class="describe">
+            <h3 class="project-sum"><kbd>Side project</kbd></h3>
+            <p>I made this website to tribute Stephen Hawking after he passed away</p>
+            <a href="https://minhduc09.github.io/stephen-hawking/" target="_blank">Check this project</a></br>
+            <a href="https://github.com/minhduc09/stephen-hawking" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Education -->
+  <div class="info" id="education">
+      <h2><span>EDUCATION</span></h2>
+  </div>
+      <div class="container">
+        <div class="education">
+          <div class="heading">
+            <div class="picture">
+              <img src="images/algonquin.png" class="edu-img" alt="algonquin">
+            </div>
+            <div class="edu-time">
+              <h5><b>September 2019 - Now</b></h5>
+            </div>
+          </div>
+          <div class="describe">
+            <h3><kbd>Algonquin College</kbd></h3>
+            <p>I'm in the Computer Engineering Technology - Computing Science program.</p>
+          </div>
+        </div>
+
+      	<div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/bach-khoa.jpg" class="edu-img" alt="bach-khoa">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>September 2017 - April 2018</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Ha Noi University of Science and Technology</kbd></h3>
+      			<p>I was in the PFIEV program - a French program for excellent students. However after one year, I found this program does not meet my needs since it focuses too much theories instead of practices.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/coc-coc.png" class="edu-img" alt="cococ">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>October 2017</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Coc coc: Basic C++ course</kbd></h3>
+      			<p>I passed their intro test and learnt the basic C++ with no fee.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/techkids.jpg" class="edu-img" alt="mindx">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>July 2016</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>MindX - Technology & startup school: Code for everyone course</kbd></h3>
+      			<p>I learnt the basic of Python there.</p>
+      		</div>
+      	</div>
+      
+
+      <div class="education">
+      		<div class="heading">
+      			<div class="picture">
+      				<img src="images/thang-long.jpeg" class="edu-img" alt="thanglong">
+      			</div>
+      			<div class="edu-time">
+      				<h5><b>2014 - 2017</b></h5>
+      			</div>
+      		</div>
+      		<div class="describe">
+      			<h3><kbd>Thang Long high school</kbd></h3>
+      			<p>I was excellent at physics im my class, and I got 2 consolation prizes from the city's competition in 2015 and 2016</p>
+      		</div>
+      	</div>
+      </div>
+  
+<!-- Footer -->
+  <div class="container">
+    <div class="footer">
+      <p>&copy; Copyright 2017 <p>
+    </div>
+  </div>
+<!--Js at the end to load the page faster  -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
