@@ -15,31 +15,35 @@ $(function(){
     $("button").dblclick(function(){
         alert("Please do not spam the button!");
     });
-   
+   //reaload the page
     $(".navbar-brand").click(function(){
         location.reload();
     });
-
+    //move to about div 
     $("#about-button").click(function() {
         $('html, body').animate({
             scrollTop: $("#about").offset().top
         }, 1000);
     });
+    //move to skills div
     $("#skills-button").click(function() {
         $('html, body').animate({
             scrollTop: $("#skills").offset().top
         }, 1000);
     });
+    //move to experience div
     $("#experience-button").click(function() {
         $('html, body').animate({
             scrollTop: $("#experience").offset().top
         }, 1000);
     });
+    //move to projects div
     $("#projects-button").click(function() {
         $('html, body').animate({
             scrollTop: $("#projects").offset().top
         }, 1000);
     });
+    //move to education div
     $("#education-button").click(function() {
         $('html, body').animate({
             scrollTop: $("#education").offset().top
