@@ -1,5 +1,5 @@
 body{
-  background-color: #f1f2f7;
+  background-color: #313f34;
    font-family: 'Lato', sans-serif!important;
    color: #777;
       /*font-family: 'Open Sans',sans-serif;*/
@@ -17,7 +17,7 @@ body{
   margin-right: 10px;
 }
 .bg-dark {
-    background-color: #222!important;
+    background-color: #313f34!important;
     padding: 0px;
     font-size: 18px;
 }
@@ -135,12 +135,12 @@ hr{
 	background-position: 70% 0px;
 	background-size:cover;
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 300px;
-    height: 450px;
-    opacity: 0.65;
-    margin: 60px 0 60px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  height: 450px;
+  opacity: 0.8;
+  margin: 60px 0 60px 0;
 }
 .info h2{
 	margin: 0px;
@@ -200,10 +200,10 @@ kbd::selection{
   color: #365899;
  }
 .resume{
-	background-color: #0069d9;
+	background-color: #516b56;
 }
 .resume:hover{
-	background-color: #0062cc;
+	background-color: #313f34;
 }
 .announce a:hover{
   text-decoration: underline;
@@ -239,14 +239,14 @@ kbd::selection{
 .list-group-item{
   border: none;
   font-size: 15px!important;
-  position: relative;`
+  position: relative;
 }
 .list-group-item span{
   padding-left: 10px;
 }
 .list-group-item a, .describe a{
   text-decoration: none;
-  color: #1fb5ac;
+  color: #1e7e34;
 }
 .list-group-item a:hover{
   color: #e74c3c;
